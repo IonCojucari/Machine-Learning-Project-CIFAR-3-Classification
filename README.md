@@ -11,7 +11,6 @@ This repository contains:
   
 ### Dataset
 The CIFAR-3 dataset consists of:
-- `X_cifar.npy`: Color images, a tensor of shape (18000, 32, 32, 3).
 - `X_cifar_grayscale.npy`: Grayscale images, a tensor of shape (18000, 32, 32).
 - `Y_cifar.npy`: Labels for each image, with classes represented as integers (0=Automobile, 1=Deer, 2=Horse).
 
@@ -45,7 +44,7 @@ Each model is evaluated on:
 ## How to Run the Code
 
 1. **Install the dependencies** listed in `requirements.txt`.
-2. **Place dataset files** (`X_cifar.npy`, `X_cifar_grayscale.npy`, and `Y_cifar.npy`) in the working directory.
+2. **Place dataset files** (`X_cifar_grayscale.npy`, and `Y_cifar.npy`) in the working directory.
 3. Run the script: 
    ```bash
    python script.py
